@@ -31,5 +31,5 @@ Steps to setup and run program:
 	
 	docker run -d -p 8000:8000 --name proxy -e PYTHONUNBUFFERED=0 --link redis:redis -d proxy	
 	
-To check the logs (logs contain the statements for incoming requests and failure count for each replica if the request fails. Also it shows the remaining time till circuit breaker will remain open, if it received a request in open statement):
+To check the logs (logs contain the statements for incoming requests and failure count for each replica if the request fails. )
 	docker logs proxy
