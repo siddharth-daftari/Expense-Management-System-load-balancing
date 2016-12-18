@@ -34,3 +34,5 @@ Steps to setup and run program:
 To check the logs (logs contain the statements for incoming requests and failure count for each replica if the request fails.) :
 	
 	docker logs proxy
+	
+Currently timeout set is 7 seconds and max failures is 4
