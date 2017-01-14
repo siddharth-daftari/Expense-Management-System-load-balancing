@@ -1,4 +1,4 @@
-# Assignment 2
+# Expense Management System with load balancing and failure detection using circuit breaker
 
 Steps to setup and run program:
 
