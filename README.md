@@ -36,3 +36,8 @@ To check the logs (logs contain the statements for incoming requests and failure
 	docker logs proxy
 	
 Currently timeout set is 7 seconds and max failures is 4
+
+License
+=======
+
+This project is released under the [MIT License](https://github.com/siddharth-daftari/Expense-Management-System-load-balancing/blob/master/LICENSE.txt).
